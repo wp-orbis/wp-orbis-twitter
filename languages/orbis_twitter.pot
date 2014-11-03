@@ -1,0 +1,62 @@
+# Copyright (C) 2014 Pronamic
+# This file is distributed under the Copyright (c) Pronamic.
+msgid ""
+msgstr ""
+"Project-Id-Version: Orbis Twitter 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/orbis-twitter\n"
+"POT-Creation-Date: 2014-11-03 09:40:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/orbis-twitter-admin.php:41
+msgid "Twitter"
+msgstr ""
+
+#: classes/orbis-twitter-admin.php:95
+msgid "Get your Twitter access token from %s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Orbis Twitter"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.orbiswp.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Orbis Twitter plugin extends your Orbis environment with Twitter."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pronamic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.pronamic.eu/"
+msgstr ""
+
+#: classes/orbis-twitter-admin.php:48
+msgctxt "twitter"
+msgid "Consumer Key"
+msgstr ""
+
+#: classes/orbis-twitter-admin.php:57
+msgctxt "twitter"
+msgid "Consumer Secret"
+msgstr ""
+
+#: classes/orbis-twitter-admin.php:66
+msgctxt "twitter"
+msgid "Access Token"
+msgstr ""
+
+#: classes/orbis-twitter-admin.php:75
+msgctxt "twitter"
+msgid "Access Token Secret"
+msgstr ""

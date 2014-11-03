@@ -1,0 +1,10 @@
+# Bower
+/bower_components/
+
+# Eclipse
+/.settings/
+/.buildpath
+/.project
+
+# Node.js
+/node_modules/

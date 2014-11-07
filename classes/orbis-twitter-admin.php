@@ -44,6 +44,15 @@ class Orbis_Twitter_Admin {
 		);
 
 		add_settings_field(
+			'orbis_twitter_widget_id',
+			_x( 'Widget ID', 'twitter', 'orbis_twitter' ),
+			array( $this, 'input_text' ),
+			'orbis',
+			'orbis_twitter',
+			array( 'label_for' => 'orbis_twitter_widget_id' )
+		);
+
+		add_settings_field(
 			'orbis_twitter_consumer_key',
 			_x( 'Consumer Key', 'twitter', 'orbis_twitter' ),
 			array( $this, 'input_text' ),
@@ -79,6 +88,7 @@ class Orbis_Twitter_Admin {
 			array( 'label_for' => 'orbis_twitter_access_token_secret' )
 		);
 
+		register_setting( 'orbis', 'orbis_twitter_widget_id' );
 		register_setting( 'orbis', 'orbis_twitter_consumer_key' );
 		register_setting( 'orbis', 'orbis_twitter_consumer_secret' );
 		register_setting( 'orbis', 'orbis_twitter_access_token' );

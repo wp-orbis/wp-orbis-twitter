@@ -5,6 +5,7 @@
  * Description:
  * Copyright: Copyright (c) 2005 - 2014
  * Company: Pronamic
+ *
  * @author Remco Tolsma
  * @version 1.0.0
  */
@@ -102,7 +103,7 @@ class Orbis_Twitter_Admin {
 	 */
 	public function section_twitter() {
 		printf(
-			__( 'Get your Twitter access token from %s.', 'orbis_twitter' ),
+			esc_html( __( 'Get your Twitter access token from %s.', 'orbis_twitter' ) ),
 			sprintf(
 				'<a href="%s" target="_blank">%s</a>',
 				esc_attr( 'https://apps.twitter.com/' ),
@@ -128,7 +129,7 @@ class Orbis_Twitter_Admin {
 		if ( isset( $args['description'] ) ) {
 			printf(
 				'<p class="description">%s</p>',
-				$args['description']
+				esc_html( $args['description'] )
 			);
 		}
 	}
